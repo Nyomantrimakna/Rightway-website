@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Navbar from "../../component/navbar/navbar";
 import Footer from "../../component/footer/footer";
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import "./Fakultas.css";
 
 const Fakultas = () => {
@@ -56,6 +56,7 @@ const Fakultas = () => {
 				</div>
 			)}
 			<Footer />
+			<Outlet />
 		</>
 	);
 };
