@@ -1,8 +1,15 @@
 import React from 'react';
+import {Routes, Route} from 'react-router-dom';
+import Home from './content/home/home';
+import About from './content/about/about';
+
 
 const App = () => {
   return(
-      <h1>Rightway app</h1>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Routes path='about' element={<About />} />
+      </Routes>
   )
 }
 
