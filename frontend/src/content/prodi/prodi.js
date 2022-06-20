@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Navbar from "../../component/navbar/navbar";
 import Footer from "../../component/footer/footer";
-import { Link, useParams } from "react-router-dom";
+import { Outlet, Link, useParams } from "react-router-dom";
 import "./prodi.css";
 
 const Prodi = () => {
@@ -60,6 +60,7 @@ const Prodi = () => {
 				</div>
 			)}
 			<Footer />
+			<Outlet />
 		</>
 	);
 };

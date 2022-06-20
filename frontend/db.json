@@ -113,7 +113,7 @@
   "teknik": [
     {
       "prodi_name": "Arsitektur",
-      "to": "asitektur"
+      "to": "arsitektur"
     },
     {
       "prodi_name": "Arsitektur Lansekap",
@@ -146,6 +146,39 @@
     {
       "prodi_name": "Teknik Biomedis",
       "to": "biomedis"
+    }
+  ],
+
+  "arsitektur": [
+    {
+      "title": "Teknik Arsitektur",
+      "deskripsi": "Arsitektur adalah suatu ilmu yang mempelajari desain dan rancangan konstruksi bangunan. Arsitektur lebih cenderung menuangkan ide, konsep, dan desain di atas kertas, sedangkan realisasi pembangunannya akan dikerjakan oleh Teknik Sipil. Dalam mendalami arsitektur, para mahasiswa harus mempelajari kekuatan bangunan (firmitas), estetika atau keindahan bangunan (venustas), dan fungsi bangunan (utilitas). Uniknya, jurusan ini tidak melulu mengajarkan hal-hal teknik, tapi juga seni dan estetika. Tidak hanya berhenti sampai menciptakan desain, mahasiswa arsitektur juga akan dibekali dengan kemampuan perencanaan anggaran yang berguna saat membuat bangunan.",
+      "karakter": "Teliti, Tekun, Detil, Terstruktur, Senang berhitung, Senang menganalisis, Senang melakukan riset",
+      "mataKuliah": "Matematika Arsitektur, Estetika Bentuk, Teknik Komunikasi Arsitektur, Gambar Teknik, Arsitektur & Lingkungan, Ilmu Bahan Bangunan, Tata Ruang, Mekanika Teknik, Arsitektur Etnik, Pencahayaan, Seni Rupa, Kalkulus, Hukum Lingkungan, Psikologi Arsitektur, Azas & Metoda Perancangan, Perkembangan Arsitektur, Struktur & Konstruksi, Fisika Bangunan, Teknologi Bahan, Perancangan Arsitektur, Fotografi Arsitektur, Utilitas",
+      "prospek": "Prospek kerja yang menanti lulusan jurusan Arsitektur sangat beragam mulai dari pemerintahan, developer, hingga kontraktor. Lulusan Arsitektur bisa juga terjun ke bisnis kebutuhan lanskap, seperti tanaman taman, pot hias, material paving, dan lainnya. Hampir semua perusahaan properti dan konstruksi pasti menggunakan jasa arsitek. Tren properti yang masih melaju kencang menunjukkan bahwa kebutuhan terhadap tenaga arsitek masih tinggi."
+    }
+  ],
+
+  "seniRupadanDesign": [
+    {
+      "prodi_name": "Desain Interior",
+      "to": "designInterior"
+    },
+    {
+      "prodi_name": "Desain Komunikasi Visual",
+      "to": "komunikasiVisual"
+    },
+    {
+      "prodi_name": "Desain Produk",
+      "to": "designProduk"
+    },
+    {
+      "prodi_name": "Kriya",
+      "to": "kriya"
+    },
+    {
+      "prodi_name": "Seni Rupa",
+      "to": "seniRupa"
     }
   ]
 }
