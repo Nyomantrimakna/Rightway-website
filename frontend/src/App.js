@@ -5,6 +5,7 @@ import About from './content/about/about';
 import Fakultas from './content/fakultas/Fakultas';
 import Prodi from './content/prodi/prodi';
 import ProdiDetail from './content/prodiDetail/ProdiDetail';
+import Panduan from './content/panduan/Panduan';
 
 const App = () => {
 	return(
@@ -17,6 +18,9 @@ const App = () => {
 					<Route index element={<Prodi />} />
 					<Route path=':name' element={<ProdiDetail />} />
 				</Route>
+			</Route>
+			<Route path='/panduan'>
+				<Route index element={<Panduan />} />
 			</Route>
 		</Routes>
 	) 
