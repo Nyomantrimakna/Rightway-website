@@ -1,0 +1,184 @@
+{
+  "fakultas": [
+    {
+      "id": 1001,
+      "fakultas_name": "Fakultas Teknik",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "teknik"
+    },
+    {
+      "id": 1002,
+      "fakultas_name": "Fakultas Seni Rupa dan Desain",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "seniRupadanDesign"
+    },
+    {
+      "id": 1003,
+      "fakultas_name": "Fakultas Psikologi",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "psikologi"
+    },
+    {
+      "id": 1004,
+      "fakultas_name": "Fakultas Peternakan dan Pertanian",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "peternakandanPertania"
+    },
+    {
+      "id": 1005,
+      "fakultas_name": "Fakultas Perikanan dan Kelautan",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "perikanandanKelautan"
+    },
+    {
+      "id": 1006,
+      "fakultas_name": "Fakultas Matematika dan Ilmu Pengetahuan Alam",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "mipa"
+    },
+    {
+      "id": 1007,
+      "fakultas_name": "Fakultas Kesehatan Masyarakat",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "kesehatanMasyarakat"
+    },
+    {
+      "id": 1008,
+      "fakultas_name": "Fakultas Kehutanan",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "kehutanan"
+    },
+    {
+      "id": 1009,
+      "fakultas_name": "Fakultas Kedokteran Hewan",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "kedokteranHewan"
+    },
+    {
+      "id": 1010,
+      "fakultas_name": "Fakultas Kedokteran Gigi",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "kedokteranGigi"
+    },
+    {
+      "id": 1011,
+      "fakultas_name": "Fakultas Kedokteran",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "kedokteran"
+    },
+    {
+      "id": 1012,
+      "fakultas_name": "Fakultas Ilmu Sosial dan Ilmu Politik",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "fisip"
+    },
+    {
+      "id": 1013,
+      "fakultas_name": "Fakultas Ilmu Budaya",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "ilmuBudaya"
+    },
+    {
+      "id": 1014,
+      "fakultas_name": "Fakultas Hukum",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "hukum"
+    },
+    {
+      "id": 1015,
+      "fakultas_name": "Fakultas Filsafat",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "filsafat"
+    },
+    {
+      "id": 1016,
+      "fakultas_name": "Fakultas Farmasi",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "farmasi"
+    },
+    {
+      "id": 1017,
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "ekonomiBisnis"
+    },
+    {
+      "id": 1018,
+      "fakultas_name": "Fakultas Ekologi Manusia",
+      "created_at": "2022-06-14T14:20:00Z",
+      "to": "ekologiManusia"
+    }
+  ],
+
+  "teknik": [
+    {
+      "prodi_name": "Arsitektur",
+      "to": "arsitektur"
+    },
+    {
+      "prodi_name": "Arsitektur Lansekap",
+      "to": "lansekap"
+    },
+    {
+      "prodi_name": "Manajemen Rekayasa Industri",
+      "to": "manajemenRekayasaIndustri"
+    },
+    {
+      "prodi_name": "Perencanaan Tata ruang dan Pertanahan",
+      "to": "perencanaanTataRuangdanPertahanan"
+    },
+    {
+      "prodi_name": "Teknik Metalurgi dan Material",
+      "to": "metaLurgidanMaterial"
+    },
+    {
+      "prodi_name": "Rekayasa Infrastruktur Lingkungan",
+      "to": "rekayasaInfrastrukturLingkungan"
+    },
+    {
+      "prodi_name": "Rekayasa Perancangan Mekanik",
+      "to": "rekayasaPerencanaanMekanik"
+    },
+    {
+      "prodi_name": "Sistem dan Teknologi Informasi",
+      "to": "sistemdanTeknologiInformasi"
+    },
+    {
+      "prodi_name": "Teknik Biomedis",
+      "to": "biomedis"
+    }
+  ],
+
+  "arsitektur": [
+    {
+      "title": "Teknik Arsitektur",
+      "deskripsi": "Arsitektur adalah suatu ilmu yang mempelajari desain dan rancangan konstruksi bangunan. Arsitektur lebih cenderung menuangkan ide, konsep, dan desain di atas kertas, sedangkan realisasi pembangunannya akan dikerjakan oleh Teknik Sipil. Dalam mendalami arsitektur, para mahasiswa harus mempelajari kekuatan bangunan (firmitas), estetika atau keindahan bangunan (venustas), dan fungsi bangunan (utilitas). Uniknya, jurusan ini tidak melulu mengajarkan hal-hal teknik, tapi juga seni dan estetika. Tidak hanya berhenti sampai menciptakan desain, mahasiswa arsitektur juga akan dibekali dengan kemampuan perencanaan anggaran yang berguna saat membuat bangunan.",
+      "karakter": "Teliti, Tekun, Detil, Terstruktur, Senang berhitung, Senang menganalisis, Senang melakukan riset",
+      "mataKuliah": "Matematika Arsitektur, Estetika Bentuk, Teknik Komunikasi Arsitektur, Gambar Teknik, Arsitektur & Lingkungan, Ilmu Bahan Bangunan, Tata Ruang, Mekanika Teknik, Arsitektur Etnik, Pencahayaan, Seni Rupa, Kalkulus, Hukum Lingkungan, Psikologi Arsitektur, Azas & Metoda Perancangan, Perkembangan Arsitektur, Struktur & Konstruksi, Fisika Bangunan, Teknologi Bahan, Perancangan Arsitektur, Fotografi Arsitektur, Utilitas",
+      "prospek": "Prospek kerja yang menanti lulusan jurusan Arsitektur sangat beragam mulai dari pemerintahan, developer, hingga kontraktor. Lulusan Arsitektur bisa juga terjun ke bisnis kebutuhan lanskap, seperti tanaman taman, pot hias, material paving, dan lainnya. Hampir semua perusahaan properti dan konstruksi pasti menggunakan jasa arsitek. Tren properti yang masih melaju kencang menunjukkan bahwa kebutuhan terhadap tenaga arsitek masih tinggi."
+    }
+  ],
+
+  "seniRupadanDesign": [
+    {
+      "prodi_name": "Desain Interior",
+      "to": "designInterior"
+    },
+    {
+      "prodi_name": "Desain Komunikasi Visual",
+      "to": "komunikasiVisual"
+    },
+    {
+      "prodi_name": "Desain Produk",
+      "to": "designProduk"
+    },
+    {
+      "prodi_name": "Kriya",
+      "to": "kriya"
+    },
+    {
+      "prodi_name": "Seni Rupa",
+      "to": "seniRupa"
+    }
+  ]
+}
