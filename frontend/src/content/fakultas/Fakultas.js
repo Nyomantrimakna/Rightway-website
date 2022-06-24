@@ -25,11 +25,21 @@ const Fakultas = () => {
 		}
 		getData();
 	}, []);
+
+	const onDelete = (id) => {
+		axios.delete(`http://localhost:3004/fakultas/${id}`).then(() => {
+			window.location.reload();
+			console.log("berhasil di delete");
+		});
+	};
+
 	return (
 		<>
 			<Navbar />
 			{loading ? (
-				<h1 className='loading'><span class="loader"></span></h1>
+				<h1 className="loading">
+					<span class="loader"></span>
+				</h1>
 			) : (
 				<div className="main-content-fakultas">
 					<div className="container-fakultas">
@@ -49,10 +59,19 @@ const Fakultas = () => {
 									<Link to={item.to} className="the-link">
 										Lihat Selengkapnya
 									</Link>
+									<button
+										className="btn-del"
+										onClick={() => onDelete(item.id)}
+									>
+										Delete
+									</button>
 								</div>
 							</div>
 						))}
 					</div>
+					<Link to="/create">
+						<i className="fa-solid fa-plus"></i>
+					</Link>
 				</div>
 			)}
 			<Footer />

@@ -109,7 +109,6 @@
       "to": "ekologiManusia"
     }
   ],
-
   "teknik": [
     {
       "prodi_name": "Arsitektur",
@@ -148,7 +147,6 @@
       "to": "biomedis"
     }
   ],
-
   "arsitektur": [
     {
       "title": "Teknik Arsitektur",
@@ -158,7 +156,6 @@
       "prospek": "Prospek kerja yang menanti lulusan jurusan Arsitektur sangat beragam mulai dari pemerintahan, developer, hingga kontraktor. Lulusan Arsitektur bisa juga terjun ke bisnis kebutuhan lanskap, seperti tanaman taman, pot hias, material paving, dan lainnya. Hampir semua perusahaan properti dan konstruksi pasti menggunakan jasa arsitek. Tren properti yang masih melaju kencang menunjukkan bahwa kebutuhan terhadap tenaga arsitek masih tinggi."
     }
   ],
-
   "seniRupadanDesign": [
     {
       "prodi_name": "Desain Interior",

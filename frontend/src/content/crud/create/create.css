@@ -1,0 +1,20 @@
+.container-create {
+	justify-content: center;
+	margin: 50px 400px;
+	border: 1px solid black;
+}
+
+.header-create {
+	text-align: center;
+	padding: 50px 20px 10px 20px;
+}
+
+.form-box {
+	padding: 10px 20px;
+	text-align: justify;
+}
+
+.btn-create {
+	padding: 10px 20px;
+	margin: 10px 20px;
+}

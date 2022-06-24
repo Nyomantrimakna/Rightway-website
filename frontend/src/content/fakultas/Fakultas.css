@@ -38,6 +38,7 @@
 	background-color: #ffcdcd;
 	height: 80px;
 	border-radius: 0px 0px 20px 20px;
+	flex-direction: column;
 }
 
 .the-header {
@@ -76,4 +77,26 @@
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+.btn-del {
+	float: right;
+	background-color: red;
+	color: #fff;
+	border-radius: 10px;
+	padding: 0 5px;
+	border: none;
+}
+
+.btn-del:hover {
+	background-color: darkred;
+}
+
+.fa-plus {
+	font-size: 3rem;
+	/*border: 1px solid black;*/
+	padding: 10px;
+	border-radius: 50%;
+	margin: 10px;
+	color: #6774d8;
 }
