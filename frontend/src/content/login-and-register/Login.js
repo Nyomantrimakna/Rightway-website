@@ -1,9 +1,9 @@
 import { useRef, useState, useEffect, useContext } from "react";
 import AuthContext from "./context/AuthProvider";
 import { Link } from "react-router-dom";
-import Button from '../../component/button/button';
+import Button from "../../component/button/button";
 import axios from "axios";
-import './form.css';
+import "./form.css";
 
 const LOGIN_URL = "http://localhost:3004/user";
 
@@ -66,7 +66,7 @@ const Login = () => {
                     <section>
                         <h1>You are logged in!</h1>
                         <br />
-                        <Link to='/'>
+                        <Link to="/">
                             <Button children="Go To Home Page" />
                         </Link>
                     </section>
@@ -107,7 +107,9 @@ const Login = () => {
                             <br />
                             <span className="line">
                                 {/*put router link here*/}
-                                <Link to="/register" className='link-signin'>Sign up</Link>
+                                <Link to="/register" className="link-signin">
+                                    Sign up
+                                </Link>
                             </span>
                         </p>
                     </section>

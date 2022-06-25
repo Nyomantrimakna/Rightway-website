@@ -6,9 +6,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import Button from '../../component/button/button';
+import Button from "../../component/button/button";
 import axios from "axios";
-import './form.css';
+import "./form.css";
 
 const USER_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
@@ -94,7 +94,7 @@ const Register = () => {
                 {success ? (
                     <section>
                         <h1>Success!</h1>
-                        <Link to='/'>
+                        <Link to="/">
                             <Button children="Go To Home Page" />
                         </Link>
                     </section>
@@ -257,7 +257,9 @@ const Register = () => {
                             <br />
                             <span className="line">
                                 {/*put router link here*/}
-                                <Link to="/login" className='link-signin'>Sign in</Link>
+                                <Link to="/login" className="link-signin">
+                                    Sign in
+                                </Link>
                             </span>
                         </p>
                     </section>
