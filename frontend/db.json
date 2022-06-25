@@ -1,4 +1,33 @@
 {
+  "prodi": [
+    {
+      "prodi_name": "Teknik Kelautan",
+      "fakultas_name": "Teknik",
+      "deskripsi": "",
+      "karakter": "",
+      "mata_kuliah": "",
+      "prospek": "",
+      "id": 1
+    },
+    {
+      "prodi_name": "Teknik Kelautan Perikanan",
+      "fakultas_name": "Teknik",
+      "deskripsi": "",
+      "karakter": "",
+      "mata_kuliah": "",
+      "prospek": "",
+      "id": 2
+    },
+    {
+      "prodi_name": "",
+      "fakultas_name": "Teknik",
+      "deskripsi": "",
+      "karakter": "",
+      "mata_kuliah": "",
+      "prospek": "",
+      "id": 3
+    }
+  ],
   "user": [
     {
       "username": "nyomantri",
@@ -14,6 +43,11 @@
       "username": "nyoman",
       "password": "Nyoman12@",
       "id": 3
+    },
+    {
+      "username": "alexuy",
+      "password": "Alex123@",
+      "id": 4
     }
   ],
   "fakultas": [

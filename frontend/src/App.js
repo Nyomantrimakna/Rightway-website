@@ -8,6 +8,7 @@ import ProdiDetail from './content/prodiDetail/ProdiDetail';
 import Panduan from './content/panduan/Panduan';
 import Login from './content/login-and-register/Login';
 import Register from './content/login-and-register/Register';
+import Create from './content/crud/create/Create';
 
 const App = () => {
 	return(
@@ -26,6 +27,7 @@ const App = () => {
 			<Route path='/panduan'>
 				<Route index element={<Panduan />} />
 			</Route>
+			<Route path='/create' element={<Create/>} />
 		</Routes>
 	) 
 }
