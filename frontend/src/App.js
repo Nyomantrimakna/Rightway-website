@@ -6,11 +6,13 @@ import Fakultas from './content/fakultas/Fakultas';
 import Prodi from './content/prodi/prodi';
 import ProdiDetail from './content/prodiDetail/ProdiDetail';
 import Panduan from './content/panduan/Panduan';
+import Login from './content/login/Login';
 
 const App = () => {
 	return(
 		<Routes>
 			<Route path='/' element={<Home />}/>
+			<Route path='/login' element={<Login />} />
 			<Route path='RightWay' element={<About />} />
 			<Route path='fakultas'>
 				<Route index element={<Fakultas />} />
