@@ -23,7 +23,8 @@ const Create = () => {
                 prospek,
             })
             .then(() => {
-                console.log("berhasil");
+                // console.log("berhasil");
+                alert('Berhasil Menambahkan Data');
             });
     };
 
